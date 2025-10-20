@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uranix SMP - O serveru</title>
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <link rel="stylesheet" href="navbar-style.css"> <!-- Style of the everwhere-same elements (navbar, content-list...) -->
+  <link rel="stylesheet" href="style.css"> <!-- Main style -->
+  <script src="navbar-script.js" defer></script> <!-- Script for the navbar function and scrolling -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Script for scrolling -->
+</head>
+<body>
+
+  <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+    <div class="open-icon">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+  </button>
+
+  <a href="index.html"><img src="icon.png" alt="Uranix SMP - Season II" class="icon"></a>
+
+  <nav id="navbar">
+    <ul>
+      <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+          <div class="close-icon">
+            <span class="crossline1"></span>
+            <span class="crossline2"></span>
+          </div>
+        </button>
+      </li>
+      <li class="home-li"><a aria-current="page" href="index.html">Domů</a></li>
+      <li><a href="o_serveru.html" class="active-link">O serveru</a></li>
+      <li><a href="pravidla.html">Pravidla</a></li>
+      <li><a href="abilitky.html">Abilitky</a></li>
+    </ul>
+  </nav>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div> 
+
+  <main>
+    <div class="hero-section">
+      <div class="overlay">
+        <h1>Uranix SMP - O serverech</h1>
+        <p>Již brzy, bez Aternos!</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Co bylo:</h1>
+      <div class="content">
+        <h2>- Historie</h2>
+        <p>Po zahájení Uranix Minecraft serveru na podzim roku 2024 jsme brzo zjistili, že někteří hráči měli tendence propagovat anarchii a škodit ostatním.</p>
+        <p>A tak selhal server #1, který adminoval Nečas. Dále se adminování ujal Horalka, který založil server #2. Ten ale také nevydržel dlouho.</p>
+        <p>Server #3 byl už připraven lépe. Jeho hlavní změna byla v takzvaných Abilitách. Každý hráč si mohl vybrat jednu unikátní schopnost, která mu dávala výhody ve hře. (viz. <a href="abilitky.html"><strong>Abilitky</strong></a>)</p>
+      </div>
+      <div class="content">
+        <h2>- Mody</h2>
+        <p>Server běžel jako ostatní na verzi 1.21.4, ale tentokrát Fabric. Tento modloader nám umožňoval snadno instalovat a spravovat mody, což přineslo nové možnosti.</p>
+        <p>Těmito mody se myslí například:</p>
+        <ul>
+          <li><strong>CarryOn:</strong> Umožňuje hráčům snadno přenášet bloky a entity.</li>
+          <li><strong>Simple Voicechat:</strong> Přidává hlasový chat do hry.</li>
+          <li><strong>Lootr:</strong> Pokud už někdo vylootil např. kovárnu, pro vás tam zbyla vaše várka.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
