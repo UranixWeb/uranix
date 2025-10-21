@@ -120,10 +120,6 @@ body{
   top: 5px;
   left: 10px;
 }
-
-main{
-  padding: min(5em, 7%);
-}
 main p{
   margin-top: .35em;
 }
