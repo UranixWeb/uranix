@@ -44,7 +44,6 @@ a {
 
 .hero-section {
     width: 100%;
-    background-image: url('smp/hero-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,6 +53,14 @@ a {
     text-align: center;
     text-shadow: 1px 1px 2px black;
     padding: 1rem;
+}
+
+.hero-section.smp {
+    background-image: url('smp/hero-background.jpg');
+}
+
+.hero-section.main {
+    background-image: url('hero-background.jpg');
 }
 
 .container {
