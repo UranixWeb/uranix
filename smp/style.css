@@ -71,7 +71,6 @@ a {
   padding: 1rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  text-indent: 30px;
 }
 
 .list {
@@ -82,51 +81,4 @@ a {
     border-radius: 8px;
     bottom: -200px;
     right: 20px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 1rem 0;
-}
-
-.card .fullname {
-    display: flex;
-    margin-top: 0.5rem;
-    align-items: center;
-    flex-direction: row;
-    gap: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.258);
-    padding: 5px;
-}
-
-.card .fullname p {
-    margin: 0;
-    font-family: "Minecraft normal";
-    font-size: 1.5rem;
-}
-
-.card .fullname .prefix-owner {
-    font-family: "Minecraft bold";
-    color: #660000;
-}
-
-.card .fullname .prefix-admin {
-    font-family: "Minecraft bold";
-    color: #640066;
-}
-
-.card .přezdívka {
-    font-size: 1.5rem;
-    color: #ffffff;
-    font-family: Poppins;
-    font-weight: 700;
-}
-
-.character {
-    height: 300px;
 }
