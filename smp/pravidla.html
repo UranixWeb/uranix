@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+  <button id="open-sidebar-button" onclick="openSidebar()">
     <div class="open-icon">
       <span class="line"></span>
       <span class="line"></span>
@@ -23,21 +23,21 @@
   <nav id="navbar">
     <ul>
       <li>
-        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+        <button id="close-sidebar-button" onclick="closeSidebar()">
           <div class="close-icon">
             <span class="crossline1"></span>
             <span class="crossline2"></span>
           </div>
         </button>
       </li>
-      <li class="home-li"><a aria-current="page" href="index.html">Domů</a></li>
+      <li class="home-li"><a href="index.html">Domů</a></li>
       <li><a href="o_serveru.html">O serveru</a></li>
       <li><a href="pravidla.html" class="active-link">Pravidla</a></li>
       <li><a href="abilitky.html">Abilitky</a></li>
     </ul>
   </nav>
   
-  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div> 
+  <div id="overlay" onclick="closeSidebar()"></div> 
 
   <main>
     <div class="hero-section">
