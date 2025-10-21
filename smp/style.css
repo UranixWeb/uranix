@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Greater Theory";
-    src: url(fonts/GreaterTheory-lxO6V.otf);
+    src: url(../fonts/GreaterTheory-lxO6V.otf);
 }
 
 @font-face {
     font-family: "Minecraft normal";
-    src: url(fonts/MinecraftRegular-Bmg3.otf);
+    src: url(../fonts/MinecraftRegular-Bmg3.otf);
 }
 
 @font-face {
     font-family: "Minecraft bold";
-    src: url(fonts/MinecraftBold-nMK1.otf);
+    src: url(../fonts/MinecraftBold-nMK1.otf);
 }
 
 * {
