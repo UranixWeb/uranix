@@ -222,6 +222,12 @@ nav a.accent-link:hover{
   nav .home-li{
     margin-left: unset;
   }
+  nav a.active-link{
+  border-bottom: 2px solid var(--text-color);
+  background: linear-gradient(-90deg, #00000000 0%, #ffffff 93%);
+  font-weight: 700;
+  text-shadow: 1px 1px 0 #000000 ;
+}
 }
 .line {
   display: block;
