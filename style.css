@@ -66,7 +66,7 @@ a {
 .container {
   max-width: 700px;
   margin: 1em auto;
-  padding: 1rem;
+  padding: 16px;
   position: relative;
   font-size: 1.2rem;
   background: rgba(255, 255, 255, 0.1);
