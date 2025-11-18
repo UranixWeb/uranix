@@ -151,7 +151,7 @@ nav a:hover{
 }
 nav a.active-link{
   border-bottom: 2px solid var(--text-color);
-  background: linear-gradient(-180deg, #00000000 0%, #ffffff 93%);
+  background: linear-gradient(-180deg, #00000000 50%, #ffffff 100%);
   font-weight: 700;
 }
 nav a:hover.active-link{
