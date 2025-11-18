@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="icon.png">
   <link rel="stylesheet" href="style.css"> <!-- Main style -->
   <script src="navbar-script.js" defer></script> <!-- Script for the navbar function -->
+  <script src="mapa-script.js" defer></script>
 </head>
 <body>
 
@@ -30,9 +31,9 @@
           </div>
         </button>
       </li>
-      <li><a href="index.html" class="active-link">Domů</a></li>
+      <li><a href="index.html">Domů</a></li>
       <li><a href="clenove.html">Členové</a></li>
-      <li><a href="mapa.html">Kde nás najdete</a></li>
+      <li><a href="mapa.html" class="active-link">Kde nás najdete</a></li>
     </ul>
   </nav>
   
@@ -45,6 +46,8 @@
         <p>Jako kdyby uranem dohodil!</p>
       </div>
     </div>
+    <h1>Zde nás najdete:</h1>
+    <iframe style="border:none" src="https://mapy.com/s/pazodasema" width="700" height="466" frameborder="0" class="mapa"></iframe>
   </main>
 
 </body>
