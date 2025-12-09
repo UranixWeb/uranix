@@ -277,3 +277,21 @@ nav a.accent-link:hover{
   justify-self: center;
   align-self: center;
 }
+
+.crafting-table {
+  height: 300px;
+  width: 300px;
+  background-color: #373a3e;
+}
+
+.crafting-cell {
+  height: 100px;
+  width: 100px;
+  background-color: #373a3e;
+}
+
+.crafting-row {
+  height: 100px;
+  width: 300px;
+  background-color: #373a3e;
+}
