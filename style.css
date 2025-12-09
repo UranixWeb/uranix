@@ -56,10 +56,6 @@ a {
 }
 
 .hero-section.smp {
-    background-image: url('smp/hero-background.jpg');
-}
-
-.hero-section.main {
     background-image: url('hero-background.jpg');
 }
 
