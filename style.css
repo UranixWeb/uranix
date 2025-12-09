@@ -280,18 +280,19 @@ nav a.accent-link:hover{
 
 .crafting-table {
   height: 300px;
-  width: 300px;
-  background-color: #373a3e;
+  width: 296px;
+  background-color: #525252;
+  border: solid 1px #373a3e;
 }
 
 .crafting-cell {
   height: 100px;
-  width: 100px;
+  width: 97.33px;
   background-color: #373a3e;
 }
 
 .crafting-row {
   height: 100px;
-  width: 300px;
+  width: 296px;
   background-color: #373a3e;
 }
