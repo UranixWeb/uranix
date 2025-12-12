@@ -74,6 +74,11 @@ a {
   padding: 1rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  position: relative;
+}
+
+.content img {
+  width: 70%;
 }
 
 .list {
