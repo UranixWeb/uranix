@@ -296,13 +296,19 @@ nav a.accent-link:hover{
 }
 
 .crafting-cell {
-  height: 100px;
-  width: 97.33px;
+  position: relative;
+  height: 97.33px;
+  width: 100px;
   background-color: #373a3e;
 }
 
 .crafting-row {
-  height: 100px;
-  width: 296px;
+  height: 97.33px;
+  width: 300px;
   background-color: #373a3e;
+}
+
+.crafting-cell img {
+  height: 100%;
+  width: 100%;
 }
