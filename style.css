@@ -191,7 +191,7 @@ nav a.accent-link:hover{
   z-index: 9;
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   #open-sidebar-button, #close-sidebar-button{
     display: block;
   }
