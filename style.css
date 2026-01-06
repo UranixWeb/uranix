@@ -134,9 +134,6 @@ nav ul{
   list-style: none;
   display: flex;
 }
-nav .home-li{
-  margin-left: auto;
-}
 nav li{
   display: flex;
 }
