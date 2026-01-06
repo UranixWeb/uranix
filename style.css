@@ -169,9 +169,6 @@ nav a.accent-link:hover{
   background-color: var(--hover-color);
   color: var(--text-accent-color);
 }
-.indicie {
-  x: -3641
-}
 #open-sidebar-button{
   display: none;
   background: none;
@@ -284,8 +281,9 @@ nav a.accent-link:hover{
 }
 
 .mapa {
-  justify-self: center;
-  align-self: center;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .crafting-table {
