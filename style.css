@@ -319,7 +319,6 @@ nav a.accent-link:hover{
 .kontakty-table td {
   align-items: center;
   border-collapse: collapse;
-  padding: 5px;
   border: solid 2px #666666;
 }
 .kontakty-table th {
