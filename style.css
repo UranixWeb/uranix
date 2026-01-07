@@ -314,20 +314,20 @@ nav a.accent-link:hover{
   width: 100%;
   border-collapse: collapse;
   text-align: center;
-  border: solid 1px #3f3f3f;
+  border: solid 3px #3f3f3f;
 }
 .kontakty-table td {
   align-items: center;
   border-collapse: collapse;
-  padding: 10px;
-  border: solid 1px #666666;
+  padding: 5px;
+  border: solid 2px #666666;
 }
 .kontakty-table th {
  font-weight: 500;
  text-align: center;
   border-collapse: collapse;
   padding: 10px;
-  border: solid 1px #666666;
+  border: solid 2px #666666;
 }
 .kontakty-table img {
   height: 100px;
