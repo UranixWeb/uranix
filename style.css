@@ -333,4 +333,6 @@ nav a.accent-link:hover{
 }
 .kontakty-table img {
   height: 100px;
+  object-fit: unset;
+  width: auto;
 }
