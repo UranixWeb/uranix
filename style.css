@@ -229,9 +229,12 @@ nav a.accent-link:hover{
   border-bottom: 2px solid var(--text-color);
   background: linear-gradient(-90deg, #00000000 3%, #ffffff 97%);
   font-weight: 700;
-  text-shadow: 1px 1px 0 #000000 ;
+  text-shadow: 1px 1px 0 #000000;}
+  .zmizni {
+  display: none;
+  }
 }
-}
+
 .line {
   display: block;
   width: 30px;
@@ -320,10 +323,11 @@ nav a.accent-link:hover{
   align-items: center;
   border-collapse: collapse;
   border: solid 2px #666666;
+  min-height: 100px;
 }
 .kontakty-table th {
- font-weight: 500;
- text-align: center;
+  font-weight: 800;
+  text-align: center;
   border-collapse: collapse;
   padding: 10px;
   border: solid 2px #666666;
