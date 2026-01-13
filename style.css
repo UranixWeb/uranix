@@ -323,7 +323,7 @@ nav a.accent-link:hover{
   align-items: center;
   border-collapse: collapse;
   border: solid 2px #666666;
-  min-height: 100px;
+  min-height: 200px;
 }
 .kontakty-table th {
   font-weight: 800;
