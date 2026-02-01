@@ -3,16 +3,6 @@
     src: url(./fonts/GreaterTheory-lxO6V.otf);
 }
 
-@font-face {
-    font-family: "Minecraft normal";
-    src: url(./fonts/MinecraftRegular-Bmg3.otf);
-}
-
-@font-face {
-    font-family: "Minecraft bold";
-    src: url(./fonts/MinecraftBold-nMK1.otf);
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
